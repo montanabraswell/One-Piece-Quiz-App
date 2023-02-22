@@ -1,0 +1,51 @@
+[
+  {
+    "question": " There are four pairs of devil fruits and their owners below. Which pair is incorrect? ",
+    "answers": [
+      "Yuki Yuki no Mi (Snow-Snow Fruit) and Monet",
+      "Kame Kame nom Mi (Tortoise Fruit) and Pekoms",
+      " Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera."
+  },
+  {
+    "question": "Lightning-shaped scar”, “creature”, and “traditional Japanese sandals”. Which character is this description referring to?",
+    "answers": [
+      "Jinbe",
+      "Urouge",
+      "Enel",
+      "M.Caesar Clown"
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": "Jinbe is the correct answer"
+  },
+  {
+    "question": "Whitebeard's crew has 15 divisions, all of which have their own Commander",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": "False"
+  }
+]
+      
+   
+
+
+
+    
+
+      
+
+
+
+
+        
+      
+
+
+
+
+      

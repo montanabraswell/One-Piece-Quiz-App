@@ -15,6 +15,7 @@
 		6AA0ECE2298C92B4000BB260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0ECE0298C92B4000BB260 /* LaunchScreen.storyboard */; };
 		6AA0ECEA2992FFB8000BB260 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ECE92992FFB8000BB260 /* Question.swift */; };
 		6AA0ECEC29930038000BB260 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0ECEB29930038000BB260 /* QuizModel.swift */; };
+		6AA0ECEE299AA4E7000BB260 /* NewQuestionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0ECED299AA4E7000BB260 /* NewQuestionData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6AA0ECE3298C92B4000BB260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AA0ECE92992FFB8000BB260 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		6AA0ECEB29930038000BB260 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		6AA0ECED299AA4E7000BB260 /* NewQuestionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NewQuestionData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				6AA0ECD9298C92B1000BB260 /* ViewController.swift */,
 				6AA0ECE92992FFB8000BB260 /* Question.swift */,
 				6AA0ECEB29930038000BB260 /* QuizModel.swift */,
+				6AA0ECED299AA4E7000BB260 /* NewQuestionData.json */,
 				6AA0ECDB298C92B1000BB260 /* Main.storyboard */,
 				6AA0ECDE298C92B4000BB260 /* Assets.xcassets */,
 				6AA0ECE0298C92B4000BB260 /* LaunchScreen.storyboard */,
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA0ECEE299AA4E7000BB260 /* NewQuestionData.json in Resources */,
 				6AA0ECE2298C92B4000BB260 /* LaunchScreen.storyboard in Resources */,
 				6AA0ECDF298C92B4000BB260 /* Assets.xcassets in Resources */,
 				6AA0ECDD298C92B1000BB260 /* Main.storyboard in Resources */,

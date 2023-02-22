@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, QuizProtocol {
+class ViewController: UIViewController, QuizProtocol, UITableViewDelegate, UITableViewDataSource {
 
     // Declare model property and initialize a new quiz model object
     var model = QuizModel()
@@ -19,8 +19,20 @@ class ViewController: UIViewController, QuizProtocol {
     // Keep track of which question the user is currently looking at
     var currentQuestionIndex = 0
     
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set self as the delegate and datasource for the tableview
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        
         
         // In viewDidLoad, it will call model.getQuestions
         // Kicks off process for the quizModel to fetch the questions
@@ -34,5 +46,7 @@ class ViewController: UIViewController, QuizProtocol {
     func questionsRetrieved(_ questions: [Question]) {
         print("questions retrieve from model")
     }
+    
+    // MARK: -UITableView Delegate Methods
     
 }

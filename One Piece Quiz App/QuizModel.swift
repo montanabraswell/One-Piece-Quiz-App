@@ -19,18 +19,48 @@ class QuizModel {
 
     var delegate: QuizProtocol?
     
-           //  TODO: Fetch Questions
-    
-          //   TODO: Notify the delegate of the retrieved questios
     
     func getQuestions() {
         
-        // TODO: Fetch the questions
+        // Fetch the questions
+        getLocalJsonFile()
         
         // TODO: Notify the delegate of the retrieved questions
         
-        // If the delegate cant retrieve questions, questionsRetrieved would get ignored safely.
-        delegate?.questionsRetrieved([Question]())
+    }
+       // Fetch the new question data json file added
+    func getLocalJsonFile() {
         
+        // get path for local json file
+        let path = Bundle.main.path(forResource: "NewQuestionData", ofType: ".json")
+        
+        // Double check the path isnt nil
+        
+
+        
+        guard let path = path  else {
+            print("Could not locate path to json file ")
+            return
+        }
+        
+        // Create a URL object from the path
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            // Get data from URL
+            let data = try Data(contentsOf: url)
+            
+            
+            // Try to decode the data into objects
+            let decoder = JSONDecoder()
+            let array   = try decoder.decode([Question].self, from: data)
+            
+            //  Notify the delegate of the parsed objects
+            delegate?.questionsRetrieved((array))
+
+        }
+        catch {
+            // Error: Couldn't read/download the data at that URL
+        }
     }
 }
