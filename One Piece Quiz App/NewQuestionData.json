@@ -3,8 +3,10 @@
     "question": " There are four pairs of devil fruits and their owners below. Which pair is incorrect? ",
     "answers": [
       "Yuki Yuki no Mi (Snow-Snow Fruit) and Monet",
-      "Kame Kame nom Mi (Tortoise Fruit) and Pekoms",
-      " Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera"
+      "Kame Kame no Mi (Tortoise Fruit) and Pekoms",
+      "Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera",
+      "Fude Fude no Mi (Brush-Brush Fruit) and Kurozumi Kanjuro"
+      
     ],
     "correctAnswerIndex": 2,
     "feedback": "Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera."

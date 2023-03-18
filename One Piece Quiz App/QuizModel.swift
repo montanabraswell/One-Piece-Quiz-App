@@ -61,6 +61,8 @@ class QuizModel {
         }
         catch {
             // Error: Couldn't read/download the data at that URL
+            
+            print("couldnt read data")
         }
     }
 }
