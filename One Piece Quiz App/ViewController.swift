@@ -26,9 +26,17 @@ class ViewController: UIViewController, QuizProtocol, UITableViewDelegate, UITab
     
     @IBOutlet weak var tableView: UITableView!
     
+    var resultDialog:ResultViewController?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Initialize the result dialog
+        resultDialog = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultViewController
+        resultDialog?.modalPresentationStyle = .overCurrentContext
+        
+        
         
         // Set self as the delegate and datasource for the tableview
         tableView.delegate = self
@@ -54,6 +62,9 @@ class ViewController: UIViewController, QuizProtocol, UITableViewDelegate, UITab
         // Display question text
         questionLabel.text = questions[currentQuestionIndex].question
         
+        // Reload the tableview
+        tableView.reloadData()
+        
     }
     // MARK: - QuizProtocol Methods
     
@@ -65,8 +76,6 @@ class ViewController: UIViewController, QuizProtocol, UITableViewDelegate, UITab
         // Display the first question
         displayQuestion()
         
-        // Reload the tableview
-        tableView.reloadData()
         
     }
     
@@ -134,8 +143,18 @@ class ViewController: UIViewController, QuizProtocol, UITableViewDelegate, UITab
             print(" User got it wrong!")
         }
         
+        // Show the popup
+        
+        if resultDialog != nil {
+            present(resultDialog!, animated: true, completion: nil)
+        }
+        
+        // Increment the currentQuestionIndex
+        currentQuestionIndex += 1
+        
+        // Display next question
+        displayQuestion()   
     }
     
-    // Increment the currentQuestionIndex
-    
+  
 }
