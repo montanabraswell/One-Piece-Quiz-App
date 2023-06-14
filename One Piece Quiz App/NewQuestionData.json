@@ -6,10 +6,9 @@
       "Kame Kame no Mi (Tortoise Fruit) and Pekoms",
       "Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera",
       "Fude Fude no Mi (Brush-Brush Fruit) and Kurozumi Kanjuro"
-      
     ],
     "correctAnswerIndex": 1,
-    "feedback": "Bata Bata no Mi (Butter-Butter Fruit) and Charlotte Opera."
+    "feedback": "Kame Kame no Mi (Tortoise Fruit) and Pekoms"
   },
   {
     "question": "Lightning-shaped scar”, “creature”, and “traditional Japanese sandals”. Which character is this description referring to?",
@@ -30,7 +29,88 @@
     ],
     "correctAnswerIndex": 1,
     "feedback": "False"
-  }
+  },
+  {
+    "question": "Former Navy Admiral Sengoku the Buddha possesses Haoshoku Haki, Busoshoku Haki, and Kenbunshoku Haki",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": "True"
+  },
+  {
+    "question": "Reiju Vinsmoke is Sanji Vinsmoke’s younger sister",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": "False"
+  },
+  {
+    "question": "Who is the first Straw Hat member to appear in the anime’s story",
+    "answers": [
+      "Luffy",
+      "Nami",
+      "Zoro",
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": "Nami is the correct answer"
+  },
+  {
+    "question": "The Going Merry Ship is named after…",
+    "answers": [
+      "Luffy's Dream",
+      "Usopp's Best Friend",
+      "Nami's Mother",
+      "Kaya's Servant"
+    ],
+    "correctAnswerIndex": 3,
+    "feedback": "Kaya's Servant is the correct answer"
+  },
+  {
+    "question": "Nico Robin first appears in what Arc ?",
+    "answers": [
+      "Little Garden",
+      "Alabasta",
+      "Whisky Peak",
+      "Drum Island"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Whisky Peak is the correct answer"
+  },
+  {
+    "question": "Who is the most Wanted man in the world ?",
+    "answers": [
+      "Shanks",
+      "Marshal.D.Teach",
+      "Monkey D. Dragon"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Monkey D. Dragon the correct answer"
+  },
+  {
+    "question": "Who was the only Straw Hat to battle three of Enel's priests",
+    "answers": [
+      "Zoro",
+      "Sanji",
+      "Usopp",
+      "Chopper"
+    ],
+    "correctAnswerIndex": 3,
+    "feedback": "Chopper; he battled Shura, Gedatsu and Ohm"
+  },
+  {
+    "question": "How many levels of 'Hell' were inside Impel Down Prison ?",
+    "answers": [
+      "6 levels",
+      "4 levels",
+      "8 levels"
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": "There were 6 levels in Impel Down"
+  },
 ]
       
    
