@@ -8,7 +8,7 @@
       "Fude Fude no Mi (Brush-Brush Fruit) and Kurozumi Kanjuro"
     ],
     "correctAnswerIndex": 1,
-    "feedback": "Kame Kame no Mi (Tortoise Fruit) and Pekoms"
+    "feedback": "Kame Kame no Mi (Tortoise Fruit) and Pekoms is the correct answer"
   },
   {
     "question": "Lightning-shaped scar”, “creature”, and “traditional Japanese sandals”. Which character is this description referring to?",
@@ -22,7 +22,7 @@
     "feedback": "Jinbe is the correct answer"
   },
   {
-    "question": "Whitebeard's crew has 15 divisions, all of which have their own Commander",
+    "question": " True or False: Whitebeard's crew has 15 divisions, all of which have their own Commander?",
     "answers": [
       "True",
       "False"
@@ -31,7 +31,7 @@
     "feedback": "False"
   },
   {
-    "question": "Former Navy Admiral Sengoku the Buddha possesses Haoshoku Haki, Busoshoku Haki, and Kenbunshoku Haki",
+    "question": " True or False: Former Navy Admiral Sengoku the Buddha possesses Haoshoku Haki, Busoshoku Haki, and Kenbunshoku Haki?",
     "answers": [
       "True",
       "False"
@@ -40,7 +40,7 @@
     "feedback": "True"
   },
   {
-    "question": "Reiju Vinsmoke is Sanji Vinsmoke’s younger sister",
+    "question": " True or False: Reiju Vinsmoke is Sanji Vinsmoke’s younger sister?",
     "answers": [
       "True",
       "False"
@@ -49,7 +49,7 @@
     "feedback": "False"
   },
   {
-    "question": "Who is the first Straw Hat member to appear in the anime’s story",
+    "question": "Who is the first Straw Hat member to appear in the anime’s story?",
     "answers": [
       "Luffy",
       "Nami",
@@ -59,7 +59,7 @@
     "feedback": "Nami is the correct answer"
   },
   {
-    "question": "The Going Merry Ship is named after…",
+    "question": "The Going Merry Ship is named after?",
     "answers": [
       "Luffy's Dream",
       "Usopp's Best Friend",
@@ -70,7 +70,7 @@
     "feedback": "Kaya's Servant is the correct answer"
   },
   {
-    "question": "Nico Robin first appears in what Arc ?",
+    "question": "Nico Robin first appears in what Arc?",
     "answers": [
       "Little Garden",
       "Alabasta",
@@ -81,7 +81,7 @@
     "feedback": "Whisky Peak is the correct answer"
   },
   {
-    "question": "Who is the most Wanted man in the world ?",
+    "question": "Who is the most Wanted man in the world?",
     "answers": [
       "Shanks",
       "Marshal.D.Teach",
@@ -91,7 +91,7 @@
     "feedback": "Monkey D. Dragon the correct answer"
   },
   {
-    "question": "Who was the only Straw Hat to battle three of Enel's priests",
+    "question": "Who was the only Straw Hat to battle three of Enel's priests?",
     "answers": [
       "Zoro",
       "Sanji",
@@ -102,7 +102,7 @@
     "feedback": "Chopper; he battled Shura, Gedatsu and Ohm"
   },
   {
-    "question": "How many levels of 'Hell' were inside Impel Down Prison ?",
+    "question": "How many levels of 'Hell' were inside Impel Down Prison?",
     "answers": [
       "6 levels",
       "4 levels",
@@ -110,6 +110,60 @@
     ],
     "correctAnswerIndex": 0,
     "feedback": "There were 6 levels in Impel Down"
+  },
+  {
+    "question": "Where in the world was Sanji born?",
+    "answers": [
+      "North Blue",
+      "East Blue",
+      "West Blue",
+      "South Blue"
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": "Sanji is from North Blue"
+  },
+  {
+    "question": "Where was the first Road Poneglph that the Straw Hats found?",
+    "answers": [
+      "Fishman Island",
+      "Zou",
+      "Wholecake Island",
+      "Wano"
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": "Zou was where the first Road Poneglyph found by the Staw Hats"
+  },
+  {
+    "question": "Who gave Shanks the scar on his eye?",
+    "answers": [
+      "Dragon",
+      "Akainu",
+      "Blackbeard"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Blackbeard gave him the scar in a confrontation that they had in the past"
+  },
+  {
+    "question": "Who was the first Admiral to be shown in the series?",
+    "answers": [
+      "Akainu",
+      "Kizaru",
+      "Aokiji",
+      "Sengoku"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Aokiji made his first apperance in chapter 303 and episode 225"
+  },
+  {
+    "question": "Which Of the Following Doesn't Possess Conqueror's Haki?",
+    "answers": [
+      "Chinjao",
+      "Boa Hancock",
+      "Monkey D. Garp",
+      "Donquixote Doflamingo"
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": "Monkey D. Garp is the correct answer"
   },
 ]
       
